@@ -20,7 +20,7 @@ An interactive command-line chatbot that simulates a conversation with an AI clo
 ## Installation
 
 1. Clone the repository: 
-git clone https://github.com/yourusername/trump-interview-chatbot.git
+git clone https://github.com/restieauxbro/interviewee-clone-chat
 
 2. Install dependencies:
 ```
