@@ -1,4 +1,4 @@
-# Trump Interview Chatbot
+# Interviewee Clone Chatbot
 
 An interactive command-line chatbot that simulates a conversation with an AI clone based on interview data. The bot uses GPT-4o to generate responses that mimic the interviewee's characteristic communication style, opinions, and viewpoints.
 

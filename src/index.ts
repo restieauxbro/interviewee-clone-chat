@@ -11,6 +11,8 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
+const model = "gpt-4o";
+
 const CYAN = '\x1b[36m';
 const YELLOW = '\x1b[33m';
 const RESET = '\x1b[0m';
@@ -59,7 +61,7 @@ async function main() {
 
       // Create streaming completion
       const stream = await openai.chat.completions.create({
-        model: "gpt-4",
+        model,
         messages: [
           {
             "role": "system",
@@ -71,7 +73,7 @@ async function main() {
 
             <BEGIN INTERVIEW>
 
-            ${trumpInterview.slice(0, 1000)}
+            ${trumpInterview}
 
             </END INTERVIEW>
 
@@ -103,7 +105,7 @@ async function main() {
       // You'll need to calculate it separately if needed
       // One approach is to count tokens in the full response
       const completion = await openai.chat.completions.create({
-        model: "gpt-4o",
+        model,
         messages: [
           {
             "role": "system",
