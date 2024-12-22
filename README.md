@@ -4,7 +4,7 @@ An interactive command-line chatbot that simulates a conversation with an AI clo
 
 ## Features
 
--  Command line interface
+- 💻 Command line interface
 - 🤖 AI-powered responses using OpenAI's GPT-4o model
 - 💬 Real-time streaming of responses
 - 🎯 Maintains the interviewee's distinctive speaking style and mannerisms
